@@ -338,7 +338,7 @@ class KotlinInvadersView(context: Context,
             canvas = holder.lockCanvas()
 
             // Draw the background color
-            canvas.drawColor(Color.argb(255, 0, 0, 0))
+            canvas.drawColor(Color.argb(255, 0, 100, 0))
 
             // Choose the brush color for drawing
             paint.color = Color.argb(255, 0, 255, 0)
